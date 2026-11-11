@@ -138,7 +138,7 @@ if(i%2 == 0){
 System.out.println("");
 }
    }
-//precondition: input is integer 0 will not return anything, no negatives work, input annot be bigger than 10 or it wont make pyramid
+//precondition: input is integer 0 will not return anything, no negatives work, input cannot be bigger than 10 or it wont make pyramid
 //post condition: makes upside down pyramid of numbers with number of rows that is the input
 public static void pyramid(int rows){
  int start = 1;
